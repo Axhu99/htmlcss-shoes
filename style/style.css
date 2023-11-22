@@ -1,0 +1,41 @@
+/* ? CCS reset*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! Utilis */
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* ? Generic */
+
+/* !container */
+
+.container{
+    min-height: 100px;
+}
+
+/* Header */
+
+.nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.menu{
+
+}
+
+.button{
+    font-size: 32px;
+}

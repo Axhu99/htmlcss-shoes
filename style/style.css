@@ -6,6 +6,11 @@ body{
     box-sizing: border-box;
 }
 
+html{
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
 /* ! Utilis */
 
 .flex{
@@ -16,6 +21,14 @@ ul{
     list-style-type: none;
 }
 
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
+}
+
 /* ? Generic */
 
 /* !container */
@@ -24,7 +37,35 @@ ul{
     min-height: 100px;
 }
 
-/* Header */
+.container-page{
+    max-width: 800px;
+    border: 1px dashed white;
+}
+
+/* main */
+
+.bgc-page{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgc-red{
+    background-color: #FF0000;
+}
+
+.bgc-green{
+    background-color: #008000;
+}
+
+.bgc-yellow{
+    background-color: yellow;
+}
+
+.discount-title{
+    font-size: 90px;
+    text-align: center;
+}
 
 .nav{
     position: fixed;
@@ -32,9 +73,6 @@ ul{
     right: 0;
 }
 
-.menu{
-
-}
 
 .button{
     font-size: 32px;
